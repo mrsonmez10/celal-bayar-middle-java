@@ -9,4 +9,10 @@ public class Starbucks {
     private boolean yumusatıcı;
     private String süt;
 
+    public Starbucks(String kahveBoyutu) {
+        this.kahveBoyutu = kahveBoyutu;
+    }
+
+
+
 }
