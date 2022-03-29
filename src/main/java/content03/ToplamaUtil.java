@@ -7,7 +7,7 @@ public final class ToplamaUtil {
     }
 
     public static int topla(int a, int b) {
-        return a+b;
+        int camp = 100;
+        return a+b+camp;
     }
-
 }
