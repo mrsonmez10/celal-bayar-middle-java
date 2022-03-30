@@ -14,9 +14,10 @@ public class TestDrive {
 	public static void main(String[] args) {
 		long startTime = System.nanoTime();
 		topla();
+		// Sonuc1: 878000
+		// Sonuc2: 148400
 		long endTime = System.nanoTime();
 		long totalTime = endTime - startTime;
 		System.out.println(totalTime);
 	}
-
 }

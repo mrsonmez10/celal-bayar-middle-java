@@ -83,7 +83,18 @@ public class TestDrive {
 
         // How to do with -- try with resource????
         // try-with-resources - try(Resources)
-
+        try (Scanner scanner2 = new Scanner(new File("D:\\intellij-workspace\\ITWiki\\src\\main\\resource\\test.txt")))
+        {
+            while (scanner2.hasNext())
+            {
+                System.out.println(scanner2.nextLine());
+            }
+        }
+        catch (FileNotFoundException e)
+        {
+            System.out.println("Hello");
+            e.printStackTrace();
+        }
 
 
 

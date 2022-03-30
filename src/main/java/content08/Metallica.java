@@ -11,7 +11,6 @@ public class Metallica {
     private int grupUyeSayısı;
 
     public Metallica(String grupAdı, int grupUyeSayısı) {
-        super();
         this.grupAdı = grupAdı;
         this.grupUyeSayısı = grupUyeSayısı;
     }

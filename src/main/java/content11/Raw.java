@@ -3,7 +3,6 @@ package content11;
 import java.util.ArrayList;
 import java.util.List;
 
-//Fails at runtime - unsafeAdd method uses a raw type (List)!  (Page 119)
 public class Raw {
 
     public static void main(String[] args)
@@ -18,5 +17,4 @@ public class Raw {
     {
         list.add(o);
     }
-
 }

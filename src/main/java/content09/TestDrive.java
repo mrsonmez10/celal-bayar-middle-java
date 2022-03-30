@@ -11,19 +11,21 @@ public class TestDrive {
         // Immutable
 
         // Immutable = Değiştirilemez
-        String isim = "Ali";
-        System.out.println(isim.toLowerCase());
-        System.out.println(isim);
 
-        System.out.println("---------------Çizgi1---------------");
 
-        Date date = new Date();
-        System.out.println(date);
-        date.setDate(7);
-        System.out.println(date);
+//        String isim = "Veli";
+//        System.out.println(isim.toLowerCase());
+//        System.out.println(isim);
 
-        System.out.println("---------------Çizgi2---------------");
-
+//        System.out.println("---------------Çizgi1---------------");
+//
+//        Date date = new Date();
+//        System.out.println(date);
+//        date.setDate(7);
+//        System.out.println(date);
+//
+//        System.out.println("---------------Çizgi2---------------");
+//
         LocalDate localDate = LocalDate.now();
         System.out.println(localDate);
 

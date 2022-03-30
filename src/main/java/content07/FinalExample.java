@@ -2,7 +2,7 @@ package content07;
 
 public class FinalExample {
 
-    private static final String isim = "Ali";
+    private final static int sayi =  1;
 
     public static void main(String[] args) {
 

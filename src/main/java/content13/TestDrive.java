@@ -11,8 +11,19 @@ public class TestDrive {
             System.out.println(" --> " + i.next());
         }
 
-        Iterator<Integer> i2 = a.iterator();
+        Iterator<String> i2 = n.iterator();
         while(i.hasNext()) {
+            System.out.println(" --> " + i2.next());
+        }
+    }
+
+    public static void exec2(List<String> n, List<Integer> a) {
+
+        for (Iterator<String> i = n.iterator(); i.hasNext();) {
+            System.out.println(" --> " + i.next() );
+        }
+
+        for (Iterator<Integer> i2 = a.iterator(); i2.hasNext();) {
             System.out.println(" --> " + i2.next());
         }
     }
@@ -24,6 +35,6 @@ public class TestDrive {
         List<Integer> ages = List.of(51, 50, 40, 54, 35);
 
         //exec(names,ages);
-        // exec2(names,ages);
+        exec2(names,ages);
     }
 }

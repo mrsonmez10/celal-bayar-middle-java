@@ -23,26 +23,27 @@ public class TestDrive {
 //        System.out.println('a' == 97); // char is automatically promoted to int
 //        System.out.println('a' + 1); // char is automatically promoted to int
 //        System.out.println((char) 98); // cast int to char
-//
-//        String a = "Ali";
-//        String b = new String("Ali");
-//
-//        System.out.println(a == b);
+
+
+        String a = "Ali";
+        String b = new String("Ali");
+
+        System.out.println(a.equals(b)); // true, false -> 1 , 2
 
 
         // Part2
 //		DenemeSınıf d = new DenemeSınıf(1, 2);
 //		DenemeSınıf d2 = new DenemeSınıf(1, 2);
-//		System.out.println(d == d2);
+//		System.out.println(d.equals(d2)); //
 //
 //
-//        DenemeSınıf deneme = new DenemeSınıf(10, 11);
-//        DenemeSınıf deneme2 = new DenemeSınıf(10, 11);
-//
-//        if (deneme.equals(deneme2))
-//        	System.out.println("Biz eşitiz");
-//        else
-//        	System.out.println("değiliz");
+        DenemeSınıf deneme = new DenemeSınıf(10, 11);
+        DenemeSınıf deneme2 = new DenemeSınıf(10, 11);
+
+        if (deneme.equals(deneme2))
+        	System.out.println("Biz eşitiz"); // 1
+        else
+        	System.out.println("Biz değiliz"); // 2
 
 
 //        //  Part3

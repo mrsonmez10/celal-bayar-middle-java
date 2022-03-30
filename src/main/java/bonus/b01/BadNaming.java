@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BadNaming {
 
-    int d; // elapsed time in day
+    int d;
 
     public List<int[]> getThem(int[][] theList) {
         List<int[]> list1 = new ArrayList<int[]>();

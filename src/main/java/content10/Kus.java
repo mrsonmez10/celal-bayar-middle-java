@@ -2,8 +2,7 @@ package content10;
 
 public class Kus implements UcmaYetisi {
 
-    public void cikSesi()
-    {
+    public void cikSesi() {
         System.out.println("cik");
     }
 
@@ -12,5 +11,4 @@ public class Kus implements UcmaYetisi {
         // TODO Auto-generated method stub
         return true;
     }
-
 }
